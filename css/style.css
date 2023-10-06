@@ -22,16 +22,62 @@ p {
   margin: 0;
 }
 
-.navigate {
+/* CSS Grid */
 
+#home {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "homeArea address"
+  "about"
+  "portfolio"
+  "contact"
+}
+
+#homeArea {
+  grid-area: homeArea;
+  background-image: 
+}
+
+#address {
+
+}
+
+#about {
+  grid-area: about;
+  background-image:
+}
+
+#portfolio {
+  grid-area: portfolio;
+  background-image:
+}
+
+#contact {
+  grid-area: contact;
+  background-image:
+}
+
+
+/* Classes */
+.bannerTop {height: 400px; width: 100%;}
+.profilePicture {height: 600px; width: auto; border: solid black 1px;}
+
+.navigate {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .hero-banner {
-
+  
 }
 
 .page-wrapper {
-
+   
 }
 
 .page-section {
