@@ -1,11 +1,11 @@
-# Portfolio
+# Simon's Portfolio
 This is my Front end development portfolio, I have experimented with CSS Grid and Media queries.
 
 # installation
 To use this website you can click any link on the top nav bar and it will take you to sections on the page, it is also media query compatible and will resize based on your screen size. 
 To clone this repo to your local machine but entering this into your Git Bash terminal:
 
-https://github.com/simon2781/Portfolio.git
+https://simon2781.github.io/Simon-s-Portfolio/
 
 # screenshot
 
@@ -31,8 +31,8 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 # Contact Links
 Simon Milsom - X (Formally Twitter) @simon2781m - https://twitter.com/simon2781m
 
-Project Link: https://github.com/simon2781/Portfolio
-GitHub page: https://simon2781.github.io/Portfolio/
+Project Link: https://simon2781.github.io/Simon-s-Portfolio/
+GitHub page: https://github.com/simon2781/Simon-s-Portfolio
 
 # acknowledgement
 
