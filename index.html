@@ -12,16 +12,21 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1 class="mainName">Simon Milsom</h1>
+    <h1 class="mainName" id="navigateId">Simon Milsom | Portfolio</h1>
     <nav class="navigate">
       <a href="#home">Home </a>
+      <p>|</p>
       <a href="#about">About </a>
+      <p>|</p>
       <a href="#portfolio">Portfolio </a>
+      <p>|</p>
       <a href="#contact">Contact </a>
     </nav>
   </header>
 
-  <!-- hero banner -->
+
+
+  <!-- simon banner -->
   <section id="homeArea">
     <div id="bannerTop" class="bannerTopper">      
       <h2 id="floatHeading" class="floatingHeading">Front End Web Developer!</h2>
@@ -31,31 +36,33 @@
 
 
 
-
-
+<main id="profileTop">
   <!-- profile section-->
-  <section id="profile">
+  <section id="profile" class="profile">
     <div>
-      <h1>Welcome to my Portfolio</h1>
+      <h1 id="headingProfile">Welcome to my Portfolio</h1>
+      <img class="profilePic" src="images/profilePic.png" />
       <h2>Simon Milsom</h2>
       <h3>Available as Freelance, Part-time or Full-time contracts</h3>
+      <p>I am seeking a career change, I am attending a bootcamp with EdX Skills
+         for life and am loving the challenges it is giving me, I love to code 
+         and solving problems.</p>
     </div>
+  </section>
 
+  <!--Work location info-->
   <section id="address">
     <div>
-      <h2>Based in Hythe, Kent.</h2>
+      <h1>Location Details</h1>
+      <h2>Hythe, Kent, UK</h2>
       <p>Available to work remotely or Hybrid in London or Kent</p>
     </div>
   </section>
 
-
-
-<!--About me section-->
-
-  <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
       <div>
+        <h1>About Me: </h1>
         <h2>About Me</h2>
         <p>
           this is where I will write about what I want to dso and what I enjoy
@@ -64,21 +71,27 @@
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="portfolio">
+    <section class="page-section" id="work">
       <div>
         <h2>Work</h2>
         <p>This is where I speak about what work I've done</p>
       </div>
     </section>
 
-    <!-- contact -->
-    <section class="page-section-contact" id="contact">
-      <h2>Contact Me</h2>
-      <!--need to add socials and links-->
-      <p>Email: <a href="mailto:simon2781@gmail.com">Simon Milsom</a></p>
-    </section>
   </main>
 
+    
+  
+
+
+<footer class="footer">
+  <!-- contact -->
+  <section class="page-section-contact" id="contact">
+    <h2>Contact Me</h2>
+    <!--need to add socials and links-->
+    <p>Email: <a href="mailto:simon2781@gmail.com">Simon Milsom</a></p>
+  </section>
+</footer>
 
 
 </body>
