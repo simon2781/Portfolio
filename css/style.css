@@ -7,10 +7,11 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: black;
   
 }
 
-h1 {color: red;}
+h1 {color: whitesmoke}
 h2,
 h3,
 h4,
@@ -37,6 +38,16 @@ p {
   
 }
 
+.mainName {
+  font-size: 50px;
+  color: yellow;
+  font-style: oblique;
+  text-align: center;
+  text-decoration: underline;
+  padding: 50px;
+  margin: 0;
+}
+
 #bannerTop {
   background-image: url("../images/02-portfolio-1.jpg");
   height: 400px; width: 100%;
@@ -52,33 +63,33 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-/* #profile { } */
+/* profile section */
 
 #pictureProfile {
   grid-area: pictureProfile;
-
-
-
+  
 }
 
+#profile {
+  color: white;
+
+}
+ a {
+  color: azure;
+ }
 
 
-/* Classes */
+/* main id header */
+/* .mainId {background-color: black;} */
 
 .navigate {
   display: flex;
   flex-direction: row;
   align-items:center;
   justify-content: space-evenly;
-  font-size: 20px;
-  padding-bottom: 10px;
+  font-size: 30px;
+  padding: 30px;
   
 }
+
+
