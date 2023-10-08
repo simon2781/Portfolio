@@ -13,7 +13,7 @@ body {
 
 h1 {color: whitesmoke; font-size: 25px; text-decoration: underline;}
 h2 {color: whitesmoke; font-size: 20px;}
-h3,
+h3 ,
 h4,
 h5,
 h6 {
@@ -21,7 +21,7 @@ h6 {
 }
 
 p {
-  margin: 0;
+  margin: 5px;
 }
 
 /* CSS Grid */
@@ -67,9 +67,8 @@ p {
 /* profile section */
 
 #profileTop { 
-  border: 1px solid white;
   display: grid;
-  min-height: 500px;
+  min-height:1550px;
   height: 70vh;
   color: white;
   grid-template-columns: 1fr 1fr 1fr;
@@ -86,11 +85,14 @@ p {
 
 
 
-#work {grid-area: work; color: whitesmoke; border: 1px solid white;}
+#work {
+  grid-area: work; 
+  color: whitesmoke; 
+  }
 
 .headingProfile { 
   padding: 0px;
-  border: 1px solid wheat
+  /* border: 1px solid wheat */
 
 }
 
@@ -129,6 +131,12 @@ p {
 
 }
 
+.contactMe {text-align: center; font-size: 30px; text-decoration: underline;}
+#contact {justify-content:;}
+.socialLinks {text-align: center; display: flex; flex-direction: row; justify-content: space-evenly;}
+
+
+
 
 @media only screen and (max-width: 1000px) {
   
@@ -143,7 +151,7 @@ p {
   #profileTop {
 
     margin: 20px;
-    grid-template-rows: 500px 500px 500px 500px 500px;
+    grid-template-rows: 500px 450px 300px 500px 500px;
     grid-template-columns: 1fr;
     grid-template-areas:
    "profile" 
