@@ -7,9 +7,10 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  
 }
 
-h1,
+h1 {color: red;}
 h2,
 h3,
 h4,
@@ -24,66 +25,60 @@ p {
 
 /* CSS Grid */
 
-#home {
+#homeArea {
   margin: 0px 5%;
   display: grid;
   min-height: 500px;
   height: 70vh;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "homeArea address"
-  "about"
-  "portfolio"
-  "contact"
-}
-
-#homeArea {
-  grid-area: homeArea;
-  background-image: 
-}
-
-#address {
-
-}
-
-#about {
-  grid-area: about;
-  background-image:
-}
-
-#portfolio {
-  grid-area: portfolio;
-  background-image:
-}
-
-#contact {
-  grid-area: contact;
-  background-image:
-}
-
-
-/* Classes */
-.bannerTop {height: 400px; width: 100%;}
-.profilePicture {height: 600px; width: auto; border: solid black 1px;}
-
-.navigate {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.hero-banner {
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-area: 
+  "bannerTop bannerTop"; */
   
 }
 
-.page-wrapper {
-   
+#bannerTop {
+  background-image: url("../images/02-portfolio-1.jpg");
+  height: 400px; width: 100%;
 }
 
-.page-section {
+.floatingHeading { 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  padding: 100px;
+  color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #profile { } */
+
+#pictureProfile {
+  grid-area: pictureProfile;
+
+
 
 }
 
-.page-section-contact {
 
+
+/* Classes */
+
+.navigate {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding-bottom: 10px;
+  
 }
