@@ -30,7 +30,9 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 # Contact Links
 Simon Milsom - X (Formally Twitter) @simon2781m - https://twitter.com/simon2781m
+
 Project Link: https://github.com/simon2781/Portfolio
+GitHub page: https://simon2781.github.io/Portfolio/
 
 # acknowledgement
 
